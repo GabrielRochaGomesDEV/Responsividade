@@ -17,6 +17,7 @@ header {
     background-color: var(--azul);
     position: fixed;
     top: 0;
+    z-index: 2;
 }
 
 nav,
@@ -53,4 +54,85 @@ nav ul li a {
 
 .logo img{
     width: 200px;
+}
+
+main{
+    margin-top: 80px;
+
+}
+
+h3{
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+}
+
+#produtos{
+    display: flex;
+    width: 100%;
+    min-height: 70vh;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    position: relative;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    height: 150px;
+}
+
+.favorito{
+    position: absolute;
+    width: 15px;
+    top: 15px;
+    right: 15px;
+}
+
+.full{
+    background-color: var(--azul);
+    padding: 80px;
+}
+
+.full h3{
+    color: white;
+}
+
+#novidades {
+    display: flex;
+    justify-content: center;
+}
+
+.form_lead input{
+    width: 400px;
+    padding: 20px;
+    border: 1px solid var(--PRETO);
+    border-radius: 5px;
+}
+
+.form_lead button{
+    background-color: var(--PRETO);
+    border: 1px soli var(--PRETO);
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+    position: relative;
+    margin-top: 40px;
+    background-color: var(--PRETO);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.topo{
+    width: 40px;
+    position: fixed;
+    right: 40px ;
+    bottom: 30px;
 }
